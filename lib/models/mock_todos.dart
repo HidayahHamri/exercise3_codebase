@@ -3,7 +3,7 @@
 import 'todo.dart';
 import 'task.dart';
 
-final myTodoList = <Todo>[];
+//final myTodoList = <Todo>[];
 List<Todo> myTodoList = [
   Todo(title: "MAP Project", items: [
     Task(
