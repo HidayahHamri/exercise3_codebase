@@ -13,6 +13,7 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> {
+  // ignore: deprecated_member_use
   var change = new List(10);
   bool signal = false;
 
