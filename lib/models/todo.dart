@@ -1,4 +1,4 @@
-//import 'package:flutter/cupertino.dart';
+import 'package:flutter/cupertino.dart';
 import 'task.dart';
 
 class Todo {
@@ -15,12 +15,13 @@ class Todo {
     return (completed / _items.length) * 100;
   }
 
-  get items => _items;
   get title => _title;
+  get items => _items;
+  //get title => _title;
 
   Todo({title, items})
       : _title = title,
         _items = items;
 
-  Todo.copy(Todo from) : this(title: from.title, items: [...from.items]);
+  Todo.copy(Todo from) : this(title: from._title, items: [...from._items]);
 }
