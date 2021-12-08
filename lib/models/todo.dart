@@ -1,4 +1,3 @@
-// TODO Define the model class Todo here. The attributes are given. Complete the rest.
 import 'package:flutter/cupertino.dart';
 import 'task.dart';
 
